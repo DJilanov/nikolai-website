@@ -1,0 +1,3 @@
+Sitemap: http://n.jilanov.com/sitemap.xml
+User-agent: *
+Allow: /

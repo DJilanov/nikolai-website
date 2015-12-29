@@ -8,6 +8,7 @@ h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
 
 p.lead { text-align: center; color: #727878; }
+#profile h1 { font-size: 28px; text-align: center; color: #727878; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
 p.lead a:hover { text-decoration: none; }
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
@@ -340,4 +341,7 @@ figure.effect:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+.krii{
+	display: none;
 }
