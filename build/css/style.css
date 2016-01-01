@@ -349,6 +349,11 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	padding: 15px;
 }
 
+#projects h1 {
+	font-weight: 300;
+    color: #22A39F;
+    text-align: center;
+}
 #contact { padding-bottom: 200px; }
 #contact h2, #contact .row * { color: #FFFFFF; }
 #contact a { display: block; line-height: 32px; margin-bottom: 20px; opacity: 0.6; filter:alpha(opacity=60);  }

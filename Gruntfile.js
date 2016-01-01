@@ -9,11 +9,11 @@ module.exports = function (grunt) {
         concat: {
             'css': {
                 src: ['third-party/*css', 'css/*.css'],
-                dest: 'build/css/styles.css'
+                dest: 'build/css/style.css'
             },
             'js': {
                 src: ['js/*.js', 'third-party/*js'],
-                dest: 'build/js/scripts.js'
+                dest: 'build/js/script.js'
             },
             'html': {
                 src: 'index.html',
@@ -29,13 +29,8 @@ module.exports = function (grunt) {
                     mangle: {}
                 },
                 files: {
-                    'build/js/scripts.js': 'build/js/scripts.js'
+                    'build/js/script.js': 'build/js/script.js'
                 }
-            }
-        },
-        fileReplace: {
-            patterns: {
-                'build/index.html': 'build/buildIndex.html'
             }
         },
         // Put files not handled in other tasks here
@@ -76,6 +71,6 @@ module.exports = function (grunt) {
 
     // Test tasks below can also be executed with the command line option `--build debug` to generate debug builds.
 
-    grunt.registerTask ('debug', ['clean', 'concat', 'copy', 'fileReplace', 'uglify']);
+    grunt.registerTask ('build', ['clean', 'concat', 'copy', 'uglify']);
 
 };
